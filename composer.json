@@ -1,0 +1,14 @@
+{
+    "name": "jadojodo/cloudways-php-sdk",
+    "description": "A PHP SDK for interacting with the Cloudways API",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "JadoJodo\\CloudwaysPhpSdk\\": "src/"
+        }
+    },
+    "minimum-stability": "alpha",
+    "require": {
+        "guzzlehttp/guzzle": "^7.9"
+    }
+}
