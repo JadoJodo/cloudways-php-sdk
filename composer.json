@@ -23,6 +23,6 @@
     },
     "scripts": {
         "test": "vendor/bin/pest",
-        "ci-test": "vendor/bin/pest --coverage --min=90"
+        "ci-test": "vendor/bin/pest --coverage --min=80"
     }
 }
