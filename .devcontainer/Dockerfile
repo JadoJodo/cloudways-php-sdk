@@ -6,7 +6,7 @@ RUN apt-get update && \
     apt-get install -y software-properties-common && \
     add-apt-repository ppa:ondrej/php && \
     apt-get update && \
-    apt-get install -y php8.3-cli php8.3-xml php8.3-mbstring \
+    apt-get install -y php8.3-cli php8.3-xml php8.3-mbstring php8.3-curl \
     git curl zip && \
     curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
